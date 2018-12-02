@@ -261,14 +261,17 @@ public final static int DOWN = 6, UP = 7;
 		return Math.toRadians(a);
 		}
 	
-	//the calc source: https://stackoverflow.com/questions/1185408/converting-from-longitude-latitude-to-cartesian-coordinates
-	public void toCartesian() {
-		int radius = 6371000;
-		this._x = radius * Math.cos(this._x) * Math.cos(this._y);
-		this._y = radius * Math.cos(this._x) * Math.sin(this._y);
-		this._z = radius * Math.sin(this._x);
-	}
 	
-
-	////////////////////////////////////////////////////////////////////////////////
+	
+	/**
+	 * source : https://stackoverflow.com/questions/1185408/converting-from-longitude-latitude-to-cartesian-coordinates
+	 * wiki 1 : https://en.wikipedia.org/wiki/Geographic_coordinate_conversion#From_geodetic_to_ECEF_coordinates
+	 * wiki 2 : https://en.wikipedia.org/wiki/Geodetic_datum#From_geodetic_to_ECEF
+	 */
+	
+	public static final int earthRadius = 6371000;
+////////////////////////////////////////////////////////////////////////////////
+	
+	
 }
+
