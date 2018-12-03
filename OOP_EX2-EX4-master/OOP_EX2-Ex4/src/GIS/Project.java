@@ -5,15 +5,20 @@ import java.io.IOException;
 import java.util.Collection;
 import java.util.Iterator;
 
-public class project {
+public class Project {
+	public Layer layer;
 	
-	public project (Layer layer) throws IOException {
+	public Project (Layer layer) {
+		this.layer=layer;
+	}
+	
+	public void project2csv() throws IOException {
 		
-		String strlayer = "";
-		Iterator<Element> iter = layer.iterator();
+		
+		Iterator<Element> iter = this.layer.iterator();
 		
 
-			FileWriter writer = new FileWriter(layer.getName()+".csv");
+			FileWriter writer = new FileWriter(this.layer.getName()+".csv");
 			writer.append("MAC");
 			writer.append(',');
 			writer.append("SSID");

@@ -35,7 +35,7 @@ public class Element extends MyCoords implements GIS_element {
 	}
 	@Override
 	public Geom_element getGeom() {
-		Point3D gps = new Point3D(this.CurrentLatitude,this.CurrentLongitude,this.AltitudeMeters);
+		Point3D gps = new Point3D(this.CurrentLatitude, this.CurrentLongitude,this.AltitudeMeters);
 		return gps;
 	}
 
@@ -52,6 +52,9 @@ public class Element extends MyCoords implements GIS_element {
 		this.CurrentLongitude = ansGps.y();
 		this.AltitudeMeters = ansGps.z();
 		
+		
+		
+
 	}
 	public String getMAC() {
 		return MAC;
