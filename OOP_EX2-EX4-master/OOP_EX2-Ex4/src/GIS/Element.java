@@ -6,17 +6,17 @@ import Geom.Point3D;
 
 public class Element extends MyCoords implements GIS_element {
 	
-	private String MAC = "";
-	private String SSID = "";
-	private String AuthMode = "";
-	private String FirstSeen = "";
-	private String Channel = "";
-	private String RSSI = "";
+	private String MAC;
+	private String SSID;
+	private String AuthMode;
+	private String FirstSeen;
+	private String Channel;
+	private String RSSI;
 	private double CurrentLatitude;
 	private double CurrentLongitude;
 	private double AltitudeMeters;
-	private String AccuracyMeters = "";
-	private String Type = "";
+	private String AccuracyMeters;
+	private String Type;
 	private MetaData metaData;
 	
 
@@ -26,13 +26,28 @@ public class Element extends MyCoords implements GIS_element {
 		this.AuthMode = elements[2];
 		this.FirstSeen = elements[3];
 		this.Channel = elements[4];
-		this.CurrentLatitude = Double.parseDouble(elements[5]);
-		this.CurrentLongitude = Double.parseDouble(elements[6]);
-		this.AltitudeMeters = Double.parseDouble(elements[7]);
-		this.AccuracyMeters = elements[8];
-		this.Type = elements[9];
+		this.CurrentLatitude = Double.parseDouble(elements[6]);
+		this.CurrentLongitude = Double.parseDouble(elements[7]);
+		this.AltitudeMeters = Double.parseDouble(elements[8]);
+		this.AccuracyMeters = elements[9];
+		this.Type = elements[10];
 		this.metaData = new MetaData(FirstSeen, CurrentLatitude, CurrentLongitude, AltitudeMeters);
 	}
+	
+	public Element (double lat, double lon, double alt, String UTC) {
+		this.MAC = null;
+		this.SSID = null;
+		this.AuthMode = null;
+		this.FirstSeen = UTC;
+		this.CurrentLatitude = lat;
+		this.CurrentLongitude = lon;
+		this.AltitudeMeters = alt;
+		this.AccuracyMeters = null;
+		this.Type = null;
+		this.metaData = new MetaData(FirstSeen, CurrentLatitude, CurrentLongitude, AltitudeMeters);
+	}
+	
+	
 	@Override
 	public Geom_element getGeom() {
 		Point3D gps = new Point3D(this.CurrentLatitude, this.CurrentLongitude,this.AltitudeMeters);

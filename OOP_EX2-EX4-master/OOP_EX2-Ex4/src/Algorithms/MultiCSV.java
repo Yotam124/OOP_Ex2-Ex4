@@ -21,15 +21,17 @@ import GIS.Project;
 
 public class MultiCSV extends Csv2kml{
 	public static ArrayList<String> fileNames;
-	static ArrayList<String[]> stringArray;
+	public static ArrayList<String[]> stringArray;
+	
 		  public static void main(String... args) throws IOException{
 			fileNames=new ArrayList<String>();
 			Layer layer;
 		    String ROOT = "C:\\Users\\yotam\\git\\OOP_Ex2-Ex4\\OOP_EX2-EX4-master";
 		    FileVisitor<Path> fileProcessor = new ProcessFile();
 		    Files.walkFileTree(Paths.get(ROOT), fileProcessor);
+		  
 		    for (int i = 0; i < fileNames.size(); i++) {
-		    	stringArray=Csv2kml(fileNames.get(i));
+		    	stringArray= csv2kml(fileNames.get(i));
 		    	layer=new Layer(fileNames.get(i));
 		    	for (int j = 0; j < stringArray.size(); j++) {
 					Element element=new Element(stringArray.get(j));
@@ -58,42 +60,4 @@ public class MultiCSV extends Csv2kml{
 		      return FileVisitResult.CONTINUE;
 		    }
 		  }
-	
-	/*
-
-	public static void main(String[] args) throws IOException {
-		
-		
-	    Path pathToFile = Paths.get("csvfiles");
-		
-		FileFinder finder = new FileFinder("*.csv");
-		Files.walkFileTree(pathToFile, finder);
-		
-		
-		ArrayList<Path> foundFile = finder.foundpaths;
-		for (int i = 0; i < foundFile.size(); i++) {
-			System.out.println(foundFile);
-		}
-		if (foundFile.size() > 0) {
-			for (Path path : foundFile) {
-				String name = path.toRealPath(LinkOption.NOFOLLOW_LINKS) + "";
-				String separator = "\\";
-				String[] clearNames = name.replaceAll(Pattern.quote(separator), "\\\\").split("\\\\");
-				name = clearNames[clearNames.length-1];
-				stringArray = Csv2kml(name);
-				Layer layer = new Layer(name);
-				for (int i = 0; i < stringArray.size(); i++) {			
-					Element element = new Element(stringArray.get(i));
-					layer.add(element);
-					project pro = new project(layer);
-				}
-			}
-		}else {
-			System.out.println("no files were found!");
-		}
-		
-
-	}*/
-
-
 }
