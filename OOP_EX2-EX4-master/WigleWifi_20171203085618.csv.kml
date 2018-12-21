@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document><Style id="red"><IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/red-dot.png</href></Icon></IconStyle></Style><Style id="yellow"><IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/yellow-dot.png</href></Icon></IconStyle></Style><Style id="green"><IconStyle><Icon><href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href></Icon></IconStyle></Style><Folder><name>Wifi Networks</name>
+<Placemark>
+<Point>
+<coordinates>35.21134308,32.10487307</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21134308,32.10487307</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21107852,32.1050222</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21107852,32.1050222</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21092655,32.10503208</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21060853,32.10495375</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21044203,32.10490203</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21044203,32.10490203</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21044203,32.10490203</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21044203,32.10490203</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21044203,32.10490203</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21025994,32.1048406</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21025994,32.1048406</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21025994,32.1048406</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21025994,32.1048406</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21025994,32.1048406</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21025994,32.1048406</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21025994,32.1048406</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21025994,32.1048406</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21007474,32.10475343</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21007474,32.10475343</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21007474,32.10475343</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21007474,32.10475343</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21007474,32.10475343</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21007474,32.10475343</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21007474,32.10475343</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20990936,32.10466627</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20990936,32.10466627</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20990936,32.10466627</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20990936,32.10466627</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20990936,32.10466627</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20990936,32.10466627</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20990936,32.10466627</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20990936,32.10466627</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20975804,32.10457483</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20975804,32.10457483</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20960715,32.10448173</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20960715,32.10448173</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20946023,32.10440239</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20946023,32.10440239</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20946023,32.10440239</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20932755,32.10430866</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20917533,32.10419361</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20917533,32.10419361</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20917533,32.10419361</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20917533,32.10419361</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20917533,32.10419361</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20917533,32.10419361</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20917533,32.10419361</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20902709,32.10406321</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20902709,32.10406321</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20902709,32.10406321</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20902709,32.10406321</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20902709,32.10406321</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20902709,32.10406321</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20902709,32.10406321</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20902709,32.10406321</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20892354,32.10391893</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20883622,32.10376365</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20883622,32.10376365</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20883622,32.10376365</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20883622,32.10376365</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20878096,32.10359721</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20878096,32.10359721</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20875946,32.10346795</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20875946,32.10346795</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20875946,32.10346795</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20875946,32.10346795</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20874462,32.10333565</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20874462,32.10333565</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20874462,32.10333565</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20874462,32.10333565</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20873143,32.10318952</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20873143,32.10318952</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20873143,32.10318952</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20873143,32.10318952</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20873143,32.10318952</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20873143,32.10318952</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20873143,32.10318952</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20873143,32.10318952</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20871988,32.10301827</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20871988,32.10301827</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20871988,32.10301827</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20871988,32.10301827</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20871988,32.10301827</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20871899,32.10282362</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20871899,32.10282362</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20871899,32.10282362</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20871899,32.10282362</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20871899,32.10282362</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20871899,32.10282362</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20871899,32.10282362</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20871899,32.10282362</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20876629,32.10263124</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20876629,32.10263124</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20876629,32.10263124</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20876629,32.10263124</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20876629,32.10263124</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20876629,32.10263124</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20884914,32.10244119</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20884914,32.10244119</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20884914,32.10244119</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20884914,32.10244119</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20884914,32.10244119</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20884914,32.10244119</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20894955,32.1022576</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20894955,32.1022576</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20894955,32.1022576</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20894955,32.1022576</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20894955,32.1022576</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20894955,32.1022576</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20912829,32.10212198</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20912829,32.10212198</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20912829,32.10212198</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20912829,32.10212198</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20935702,32.1020322</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20935702,32.1020322</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20960153,32.10196459</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.2098381,32.10199722</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.2098381,32.10199722</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.2098381,32.10199722</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.2098381,32.10199722</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.2098381,32.10199722</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.2098381,32.10199722</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.2098381,32.10199722</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20998301,32.10212708</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20998301,32.10212708</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20998301,32.10212708</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20998301,32.10212708</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21003281,32.10226153</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20983303,32.10290524</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20983303,32.10290524</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20983303,32.10290524</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20983303,32.10290524</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20978446,32.10305306</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20978446,32.10305306</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20978446,32.10305306</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20978446,32.10305306</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20978446,32.10305306</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20978446,32.10305306</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20978446,32.10305306</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20977295,32.10314139</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20979335,32.10330416</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20979335,32.10330416</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20979335,32.10330416</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20979335,32.10330416</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20992695,32.10357832</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.20992695,32.10357832</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21019984,32.10379261</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21019984,32.10379261</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21019984,32.10379261</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21019984,32.10379261</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21019984,32.10379261</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21019984,32.10379261</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21040928,32.10392655</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21040928,32.10392655</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21040928,32.10392655</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21040928,32.10392655</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21064312,32.10403138</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21091349,32.10412387</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21091349,32.10412387</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21091349,32.10412387</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21091349,32.10412387</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21101715,32.10415215</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21101715,32.10415215</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21118813,32.10418089</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21138319,32.10423611</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21138319,32.10423611</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21138319,32.10423611</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21138319,32.10423611</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21138319,32.10423611</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21138319,32.10423611</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21138319,32.10423611</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21150642,32.10434812</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21150642,32.10434812</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21150642,32.10434812</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21158147,32.10450422</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.2115156,32.10476714</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.2115156,32.10476714</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.2114539,32.10481492</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.2114539,32.10481492</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21137457,32.10487501</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21135337,32.10488619</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21135337,32.10488619</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark><Placemark>
+<Point>
+<coordinates>35.21135337,32.10488619</coordinates></Point>
+<description><![CDATA[BSSID: <b></b><br/>Capabilities:</b><br/>Frequency: <b></b><br/>Timestamp: <b></b><br/>Date: <b></b>]]></description><styleUrl>#red</styleUrl>
+<name></name>
+</Placemark>
+</Folder>
+</Document></kml>

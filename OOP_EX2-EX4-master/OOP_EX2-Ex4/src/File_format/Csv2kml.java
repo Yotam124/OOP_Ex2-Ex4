@@ -6,6 +6,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import GUI.Main;
+
 public class Csv2kml { 
 	
 	
@@ -41,5 +43,5 @@ public class Csv2kml {
 			fileWriter.close();
 			return stringArray;
 		
-	}	    
+	}	
 }
