@@ -21,7 +21,12 @@ public class Map {
 	static final double mapLatitude = mapLatitudeEnd-mapLatitudeStart;
 	
 	
-	
+	/**
+	 * Convert from gps point (lat,lon) to pixel point (x,y)
+	 * @param latitude
+	 * @param longitude
+	 * @return
+	 */
 	public static Point3D gpsToPixel(double latitude, double longitude){
 	    // use offsets
 	    longitude -= mapLongitudeStart;
@@ -36,6 +41,12 @@ public class Map {
 	    return new Point3D(x, y);
 	}
 	
+	/**
+	 * Convert from pixel point (x,y) to gps point (lat,lon)
+	 * @param x
+	 * @param y
+	 * @return
+	 */
 	public static Point3D pixelToGps(double x, double y) {
 		double lon = (x/mapWidth)*mapLongitude + mapLongitudeStart;
 		double lat = -(y/mapHeight)*mapLatitude + mapLatitudeStart;
@@ -44,7 +55,14 @@ public class Map {
 	}
 	
 	
-	
+	/**
+	 * Calculating the distance (2D) and the azimuth between two pixel points
+	 * @param x1
+	 * @param y1
+	 * @param x2
+	 * @param y2
+	 * @return
+	 */
 	 public double[] disBet2Pix(int x1, int y1,int x2,int y2) {
 		 int earthRadius = 6371000;
 		 double[] details = new double[2];
@@ -94,4 +112,4 @@ public class Map {
 			});
 		  
 	 }
-} 
+}
