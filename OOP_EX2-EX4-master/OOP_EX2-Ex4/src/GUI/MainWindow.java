@@ -2,6 +2,7 @@ package GUI;
 import java.awt.Color;
 import java.awt.Event;
 import java.awt.Graphics;
+import java.awt.Image;
 import java.awt.Menu;
 import java.awt.MenuBar;
 import java.awt.MenuItem;
@@ -13,6 +14,9 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 
 import javax.imageio.ImageIO;
 import javax.swing.JFileChooser;
@@ -24,30 +28,40 @@ import PackmanGame.Fruit;
 import PackmanGame.Game;
 import PackmanGame.Map;
 import PackmanGame.Packman;
+import PackmanGame.Player;
 import PackmanGame.ShortestPathAlgo;
-import javafx.scene.text.Font;
+import Robot.Play;
+//import javafx.scene.text.Font;
 
 
 public class MainWindow extends JFrame implements MouseListener
 {
 	ArrayList<Packman> CreatePackmanList = new ArrayList<>();						//packman array list to create a game
 	ArrayList<Fruit> CreateFruitList = new ArrayList<>();							//fruit array list to create a game
+	
 	public BufferedImage myImage;													//map image
 	public BufferedImage packmanImage;												//packman image
-	public BufferedImage fruit;														//fruit image
+	public BufferedImage fruitImage;												//fruit image
+	public BufferedImage ghostImage;
+	public BufferedImage blockImage;
+	public BufferedImage playerImage;
+	
 	public Game game = new Game();
 	int pick = 0;																	//pick what to create (packman/fruit)
 	int gameNum = 1;
 	int printPath = 0;
 	boolean load = true;															//flag
-	
+	Player player;
+	Play play1;
 	/**
 	 * 
 	 */
 	public MainWindow() 
 	{
 		initGUI();		
-		this.addMouseListener(this); 
+		this.addMouseListener(this);
+		
+		
 	}
 	/**
 	 * button management.
@@ -74,11 +88,11 @@ public class MainWindow extends JFrame implements MouseListener
 		menu.add(startButton);
 		
 		this.setMenuBar(menuBar);
+		
 		/**
 		 *clear button: removes all items from the map. 
 		 */
 		ClearGameButton.addActionListener(new ActionListener() {
-			
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				remove();
@@ -152,6 +166,8 @@ public class MainWindow extends JFrame implements MouseListener
 		        game.getFruitList().removeAll(game.getFruitList());
 				game.getPackmanList().removeAll(game.getPackmanList());
 				game.BuildWithCsvFile(chooser.getSelectedFile().toString());
+				play1 = new Play(chooser.getSelectedFile().toString());
+				play1.setInitLocation(32.1040,35.2061);
 				load = false;
 				repaint();
 			}
@@ -167,14 +183,17 @@ public class MainWindow extends JFrame implements MouseListener
 				shortestPathAlgo.buildPathAlgo(game);
 				printPath = 1;
 				load = true;
+				play1.start();
 				repaint();
 				load = false;
 			}
 		});
 		try {
 			packmanImage = ImageIO.read(new File("packman.png"));
-			fruit = ImageIO.read(new File("fruitImage.png"));
+			fruitImage = ImageIO.read(new File("fruitImage.png"));
 			myImage = ImageIO.read(new File("Ariel1.png"));
+			ghostImage = ImageIO.read(new File("ghostImage.png"));
+			playerImage = ImageIO.read(new File("playerImage.png"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}		
@@ -226,6 +245,8 @@ public class MainWindow extends JFrame implements MouseListener
 		}
 		double x = 0;
 		double y = 0;
+		double x2 = 0;
+		double y2 = 0;
 		
 		for(int i = 0; i <game.getPackmanList().size() ; i++) {
 			x = game.getPackmanList().get(i).getLocation().x();
@@ -238,7 +259,47 @@ public class MainWindow extends JFrame implements MouseListener
 			x = game.getFruitList().get(i).getLocation().x();
 			y = game.getFruitList().get(i).getLocation().y();
 			Point3D gpsPix = Map.gpsToPixel(x, y);
-			g.drawImage(fruit, gpsPix.ix(), -gpsPix.iy(), this);
+			g.drawImage(fruitImage, gpsPix.ix(), -gpsPix.iy(), this);
+		}
+		for(int i = 0; i <game.getGhostsList().size() ; i++) {
+			x = game.getGhostsList().get(i).getLocation().x();
+			y = game.getGhostsList().get(i).getLocation().y();
+			Point3D gpsPix = Map.gpsToPixel(x, y);
+			g.drawImage(ghostImage, gpsPix.ix(), -gpsPix.iy(), this);
+		}
+		for(int i = 0; i <game.getBlockList().size() ; i++) {
+			double temp;
+			x = game.getBlockList().get(i).getGps1().x();
+			y = game.getBlockList().get(i).getGps1().y();
+			System.out.println("cheack5:" + x + "," + y);
+			Point3D gpsPix1 = Map.gpsToPixel(x, y);
+			System.out.println("cheack55:" + gpsPix1.x()+ "," + -gpsPix1.y());
+			x2 = game.getBlockList().get(i).getGps2().x();
+			y2 = game.getBlockList().get(i).getGps2().y();
+			System.out.println("cheack6:" + x2 + "," + y2);
+			Point3D gpsPix2 = Map.gpsToPixel(x2, y2);
+			System.out.println("cheack66:" + gpsPix2.x()+ "," + -gpsPix2.y());
+			
+			Color color = new Color(0, 0, 0);
+			g.setColor(color);
+			if (gpsPix1.x() < gpsPix2.x() && -gpsPix1.y() <-gpsPix2.y()) {
+				System.out.println(1);
+				g.fillRect((int)gpsPix1.x(), (int)-gpsPix1.y(), (int)(gpsPix2.x() - gpsPix1.x()), (int)(-gpsPix2.y() - -gpsPix1.y()));
+				System.out.println("x: " + (int)gpsPix1.x() + " y: " + (int)-gpsPix1.y() + " x2: " + (int)(gpsPix2.x() - gpsPix1.x()) + " y2: " + (int)(-gpsPix2.y() - -gpsPix1.y()));
+			}else if (gpsPix1.x() < gpsPix2.x() && -gpsPix1.y() > -gpsPix2.y()) {
+				System.out.println(2);
+				g.fillRect((int)gpsPix1.x(), (int)(-gpsPix2.y()), (int)(gpsPix2.x() - gpsPix1.x()), (int)(-gpsPix1.y() - -gpsPix2.y()));
+				System.out.println("x: " + (int)gpsPix1.x() + " y: " + (int)(-gpsPix2.y()) + " x2: " + (int)(gpsPix2.x() - gpsPix1.x()) + " y2: " + (int)(-gpsPix1.y() - -gpsPix2.y()));
+			}else if (gpsPix1.x() > gpsPix2.x() && -gpsPix1.y() < -gpsPix2.y()) {
+				System.out.println(3);
+				System.out.println("x: " + (int)gpsPix2.x() + " y: " + (int)(-gpsPix1.y()) + " x2: " + (int)(gpsPix1.x() - gpsPix2.x()) + " y2: " + (int)(-gpsPix2.y() - -gpsPix1.y()));
+				g.fillRect((int)gpsPix2.x(), (int)(-gpsPix1.y()), (int)(gpsPix1.x() - gpsPix2.x()), (int)(-gpsPix2.y() - -gpsPix1.y()));
+			}else {
+				System.out.println(4);
+				System.out.println("x: " + (int)gpsPix2.x() + " y: " + (int)(-gpsPix2.y()) + " x2: " + (int)(gpsPix1.x() - gpsPix2.x()) + " y2: " + (int)(-gpsPix1.y() - -gpsPix2.y()));
+				g.fillRect((int)gpsPix2.x(), (int)(-gpsPix2.y()), (int)(gpsPix1.x() - gpsPix2.x()), (int)(-gpsPix1.y() - -gpsPix2.y()));
+			}
+			
 			
 		}
 		
@@ -270,6 +331,7 @@ public class MainWindow extends JFrame implements MouseListener
 			CreatePackmanList.add(pack);
 			packId++;
 			
+			
 		}
 		else if (pick == 2) {
 			System.out.println("Fruit Added");
@@ -287,8 +349,7 @@ public class MainWindow extends JFrame implements MouseListener
 			System.out.println("mouse Clicked");
 			System.out.println("("+ arg.getX() + "," + arg.getY() +")");
 			x = arg.getX();
-			y = arg.getY();
-				
+			y = arg.getY();	
 		}
 		
 		
