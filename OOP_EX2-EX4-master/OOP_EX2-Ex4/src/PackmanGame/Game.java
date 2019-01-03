@@ -13,9 +13,6 @@ public class Game {
 	
 	ArrayList<Packman> PackmanList;											//packman list
 	ArrayList<Fruit> FruitList;												//fruit list
-	ArrayList<Ghosts> GhostsList;
-	ArrayList<Block> BlockList;
-	Player player;
 	
 	/**
 	 * default constructor
@@ -23,8 +20,7 @@ public class Game {
 	public Game() {
 		PackmanList = new ArrayList<>();
 		FruitList = new ArrayList<>();
-		GhostsList = new ArrayList<>();
-		BlockList = new ArrayList<>();
+		
 	}
 	/**
 	 * read a 'csv' file and creates two array lists, one for fruit and one for packman.
@@ -67,21 +63,6 @@ public class Game {
 							Point3D F = new Point3D(Lat, Lon, Alt);
 							Fruit F1 = new Fruit(F,ID);  
 							FruitList.add(F1);
-						}
-						else if (Name.equals("G")) {
-							Point3D G = new Point3D(Lat, Lon, Alt);
-							Ghosts G1 = new Ghosts(G, SpeedForSec, ID, Radius);  
-							GhostsList.add(G1);
-						}
-						else if (Name.equals("B")) {
-							Point3D b1 = new Point3D(Lat, Lon, Alt);
-							Point3D b2 = new Point3D(SpeedForSec, Radius, 0);
-							Block B = new Block(b1,b2); 
-							BlockList.add(B);
-						}
-						else if (Name.equals("M")) {
-							Point3D M = new Point3D(Lat, Lon, Alt);
-							this.player = new Player(M, SpeedForSec, ID, Radius);  
 						}
 						else {
 							System.out.println("Faild to create lane: " + Line + ",there is no 'Type' for the data...");
@@ -178,25 +159,6 @@ public class Game {
 	public void setFruitList(ArrayList<Fruit> fruitList) {
 		FruitList = fruitList;
 	}
-	public ArrayList<Ghosts> getGhostsList() {
-		return GhostsList;
-	}
-	public void setGhostsList(ArrayList<Ghosts> ghostsList) {
-		GhostsList = ghostsList;
-	}
-	public ArrayList<Block> getBlockList() {
-		return BlockList;
-	}
-	public void setBlockList(ArrayList<Block> blockList) {
-		BlockList = blockList;
-	}
-	public Player getPlayer() {
-		return player;
-	}
-	public void setPlayer(Player player) {
-		this.player = player;
-	}
-	
 	
 
 }

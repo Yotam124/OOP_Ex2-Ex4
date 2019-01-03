@@ -1,5 +1,5 @@
 package PackmanGame;
 
-public class MyFrame {
+public class MyFrame  {
 
 }

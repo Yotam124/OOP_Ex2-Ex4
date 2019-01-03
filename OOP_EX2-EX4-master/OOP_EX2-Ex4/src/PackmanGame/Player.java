@@ -15,6 +15,7 @@ public class Player extends Packman{
 	public Player(Point3D point, double speed, int ID, double Radius) {
 		super(point, speed, ID, Radius);
 	}
+	
 	/**
 	 * add score to the player.
 	 * @param score

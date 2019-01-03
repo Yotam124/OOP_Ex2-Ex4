@@ -11,12 +11,12 @@ import Geom.Point3D;
 
 
 public class Map {
-	static final int mapWidth = 1433, mapHeight = 642;
+	static final int mapWidth = 1200, mapHeight = 642;
 	// offsets
-	static final double mapLongitudeStart = 35.202366;
-	static final double mapLatitudeStart = 32.105691;
-	static final double mapLongitudeEnd = 35.21222222; 
-	static final double mapLatitudeEnd = 32.10194444;
+	static final double mapLongitudeStart = 35.202369;
+	static final double mapLatitudeStart = 32.105728;
+	static final double mapLongitudeEnd = 35.212416; 
+	static final double mapLatitudeEnd = 32.101898;
 	static final double mapLongitude = mapLongitudeEnd-mapLongitudeStart;
 	static final double mapLatitude = mapLatitudeEnd-mapLatitudeStart;
 	
@@ -63,7 +63,7 @@ public class Map {
 	 * @param y2
 	 * @return
 	 */
-	 public double[] disBet2Pix(int x1, int y1,int x2,int y2) {
+	 public static double[] disBet2Pix(int x1, int y1,int x2,int y2) {
 		 int earthRadius = 6371000;
 		 double[] details = new double[2];
 		 double distance = 0;
