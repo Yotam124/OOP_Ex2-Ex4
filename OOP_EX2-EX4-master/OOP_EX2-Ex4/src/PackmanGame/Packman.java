@@ -1,6 +1,14 @@
 package PackmanGame;
 
 import Geom.Point3D;
+
+import java.awt.Image;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
+
 import Coords.MyCoords;
 
 public class Packman {
@@ -11,6 +19,11 @@ public class Packman {
 	int ID;																//packmans ID.
 	double Radius;														//packmans eat radius.
 	Path path;															//path of the packmans eaten fruits.
+	
+	public static BufferedImage packmanImage;
+	
+	
+	
 	/**
 	 * packman constructor.
 	 * @param point
@@ -107,6 +120,12 @@ public class Packman {
 	 */
 	public void setRadius(double radius) {
 		Radius = radius;
+	}
+
+	public static Image getPackmanImage() throws IOException {
+		packmanImage = ImageIO.read(new File("packman.png"));
+		
+		return packmanImage;
 	}
 
 }

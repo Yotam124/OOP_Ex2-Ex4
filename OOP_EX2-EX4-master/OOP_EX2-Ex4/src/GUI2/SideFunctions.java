@@ -22,7 +22,7 @@ public class SideFunctions {
 	public static BufferedImage box;
 	public static BufferedImage player;
 	
-	public static Game game;
+	public static PackmanGame.Game game;
 	
 	public static Image getGhostImage() throws IOException {
 		ghost = ImageIO.read(new File("ghostImage.png"));
@@ -55,7 +55,7 @@ public class SideFunctions {
 		}
 		game = new Game();
 		for(int i = 0 ; i < str.length ; i++) {
-			if(str[i].charAt(0) == 'M') {
+			if(i == 0) {
 				Robot.Packman m1 = new Robot.Packman(str[i]);
 				game.setPlayer(m1);
 			}
@@ -84,12 +84,11 @@ public class SideFunctions {
 	
 	public static void main(String[] args) {
 		Play play = new Play("Data/Ex4_OOP_example9.csv");
-		play.setInitLocation(32.103328,35.2053377);
+		play.setInitLocation(32.10328,35.253377);
 		game = readString(play.getBoard());
+		System.out.println(game.getPlayer().toString());
 		System.out.println(play.getBoard().toString());
-		for (int i=0 ; i<play.getBoard().size() ; i++) {
-			System.out.println(game.getPlayer());
-		}
+
 		
 		
 	}

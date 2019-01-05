@@ -121,8 +121,9 @@ public class MainWindow extends JFrame implements MouseListener
 						System.out.println("Init Player Location should be set using the bounding box info");
 						
 						// 5) Set the "player" init location - should be a valid location
-						play1.setInitLocation(32.1040,35.2061);
 						
+						play1.setInitLocation(loc.x(),loc.y());
+						System.out.println(loc.x() +", "+ loc.y());
 						// 6) Start the "server"
 						play1.start(); // default max time is 100 seconds (1000*100 ms).
 						
@@ -222,9 +223,8 @@ public class MainWindow extends JFrame implements MouseListener
 		}*/
 		if(flag) {
 			try {
-				/*x = game.getPlayer().getLocation().x();
-				y = game.getPlayer().getLocation().y();*/
-				System.out.println(x+","+y);
+				x = game.getPlayer().getLocation().x();
+				y = game.getPlayer().getLocation().y();
 				Point3D loc1 = Map.gpsToPixel( loc.x(), loc.y());
 				g.drawImage(SideFunctions.getPlayerImage(), loc1.ix(), loc1.iy(), this);
 				System.out.println(loc1.ix()+"," +loc1.iy());

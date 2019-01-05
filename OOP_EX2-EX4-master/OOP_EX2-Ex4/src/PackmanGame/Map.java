@@ -11,7 +11,7 @@ import Geom.Point3D;
 
 
 public class Map {
-	static final int mapWidth = 1200, mapHeight = 642;
+	static final int mapWidth = 1330, mapHeight = 642;
 	// offsets
 	static final double mapLongitudeStart = 35.202369;
 	static final double mapLatitudeStart = 32.105728;

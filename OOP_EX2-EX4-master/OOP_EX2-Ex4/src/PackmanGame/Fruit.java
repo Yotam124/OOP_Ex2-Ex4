@@ -1,8 +1,17 @@
 package PackmanGame;
 
+import java.awt.Image;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
+
 import Geom.Point3D;
 
 public class Fruit {
+	
+	public static BufferedImage fruitImage;
 	
 	Point3D Location;
 	int ID;
@@ -50,6 +59,12 @@ public class Fruit {
 	@Override
 	public String toString() {
 		return "Fruit [Location=" + Location + ", ID=" + ID + "]";
+	}
+	
+	public static Image getFruitImage() throws IOException {
+		fruitImage = ImageIO.read(new File("fruitImage.png"));
+		
+		return fruitImage;
 	}
 	
 	
