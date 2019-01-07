@@ -243,7 +243,7 @@ public class MainWindow extends JFrame implements MouseListener
 		if (pick == 1) {
 			 loc = Map.pixelToGps(x, y);
 			
-			play.setInitLocation(loc.x(), loc.y());
+			play.setInitLocation(32.10400390342679, 35.2060931887218);
 			game = SideFunctions.readString(play.getBoard());
 			player = game.getPlayer();
 			System.out.println(loc.x()+","+ loc.y());

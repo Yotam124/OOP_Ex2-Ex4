@@ -38,7 +38,7 @@ public class Map {
 	    int x = (int) (mapWidth*(longitude/mapLongitude));
 	    int y = (int) (mapHeight*(latitude/mapLatitude));
 
-	    return new Point3D(x, y);
+	    return new Point3D(x, -y);
 	}
 	
 	/**
@@ -49,7 +49,7 @@ public class Map {
 	 */
 	public static Point3D pixelToGps(double x, double y) {
 		double lon = (x/mapWidth)*mapLongitude + mapLongitudeStart;
-		double lat = -(y/mapHeight)*mapLatitude + mapLatitudeStart;
+		double lat = (y/mapHeight)*mapLatitude + mapLatitudeStart;
 		
 		return new Point3D(lat, lon);
 	}
@@ -87,6 +87,14 @@ public class Map {
 		 return details;
 	 }
 	 
+	 public static double azimutBetweenGps(Point3D gps1, Point3D gps2) {
+		 double azimut = Math.toDegrees(Math.atan2(gps2.y() - gps1.y(), gps2.x() - gps1.x()));
+		 if(azimut < 0) {
+			 azimut += 360;
+		 }
+		 return azimut;
+	 }
+	 
 	 
 	
 	 public static void main(String args[]) {
@@ -110,6 +118,11 @@ public class Map {
 			         System.out.println(gpsToPixel(ss.x(), ss.y()));
 			    }
 			});
-		  
+		 
+		  Point3D gps1 = new Point3D(32.103170, 35.203206);
+		  Point3D gps2 = new Point3D(32.103140, 35.205117);
+		  double azimut = azimutBetweenGps(gps1, gps2); 
+	  
+		  System.out.println(azimut);
 	 }
 }
